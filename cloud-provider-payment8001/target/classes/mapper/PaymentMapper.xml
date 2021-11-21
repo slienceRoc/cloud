@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- <mapper> 元素是配置文件的根元素，它包含了 namespace 属性，该属性值通常设置为“包名+SQL映射文件名”，用于指定唯一的命名空间
+    命名空间可以看到是对应mapper（dao）接口的实现
+-->
+<mapper namespace="com.shipc.springcloud.dao.PaymentDao">
+    <!-- id就是方法名称   parameterType方法的参数类型  useGeneratedKeys使用自动生成key
+    useGeneratedKeys=“true”     keyProperty=“id”
+useGeneratedKeys设置为 true 时，表示如果插入的表id以自增列为主键，则允许 JDBC 支持自动生成主键，并可将自动生成的主键id返回。
+-->
+    <insert id="create" parameterType="Payment" useGeneratedKeys="true" keyProperty="id">
+        insert into payment(serial) values (#{serial});
+    </insert>
+
+    <!-- 映射字段与属性 -->
+    <resultMap id="BaseResultMap" type="com.shipc.springcloud.entity.Payment">
+        <id column="id" property="id"></id>
+        <result column="serial" property="serial"></result>
+    </resultMap>
+
+    <!-- 为什么要用resultMap，二不用resultType， 因为很多时候有些开发人员实体命名不规范-->
+    <select id="getPaymentById" parameterType="Long" resultMap="BaseResultMap">
+        select * from payment where id =  #{id};
+    </select>
+
+</mapper>
