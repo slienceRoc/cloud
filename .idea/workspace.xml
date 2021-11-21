@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60356dfc-2fd1-4065-be2d-20034560b1ec" name="Default Changelist" comment="" />
+    <list default="true" id="60356dfc-2fd1-4065-be2d-20034560b1ec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/README.MD" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +19,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -43,6 +48,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/shipc/springcloud" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15682282" />
     <property name="project.structure.side.proportion" value="0.626883" />
@@ -198,6 +204,7 @@
       <workItem from="1636544908711" duration="4649000" />
       <workItem from="1636637481814" duration="824000" />
       <workItem from="1636692562867" duration="1874000" />
+      <workItem from="1637500504884" duration="106000" />
     </task>
     <servers />
   </component>
@@ -223,6 +230,10 @@
       <screen x="0" y="25" width="1280" height="713" />
     </state>
     <state x="453" y="89" key="#com.intellij.ide.util.MemberChooser/0.25.1280.713@0.25.1280.713" timestamp="1636038847789" />
+    <state x="224" y="25" key="CommitChangelistDialog2" timestamp="1637500114328">
+      <screen x="0" y="25" width="1280" height="724" />
+    </state>
+    <state x="224" y="25" key="CommitChangelistDialog2/0.25.1280.724@0.25.1280.724" timestamp="1637500114328" />
     <state width="489" height="618" key="DebuggerActiveHint" timestamp="1636040980128">
       <screen x="0" y="25" width="1280" height="713" />
     </state>
